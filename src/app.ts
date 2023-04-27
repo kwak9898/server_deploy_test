@@ -7,10 +7,13 @@ export default class App {
     this.app = express();
     this.app.use(express.json());
     this.app.use(express.urlencoded({ extended: false }));
-    this.app.get("/", () => {
-      return "server deploy tutorual";
-    });
     this.port = 3000;
+  }
+
+  public main() {
+    this.app.get("/", (req, res) => {
+      res.send("server deploy tutorial");
+    });
   }
 
   public listen() {
