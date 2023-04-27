@@ -1,4 +1,4 @@
-# Docker + Nginx + MySQL + Node.js Server Deployment
+# Docker + Node.js Server Deployment
 
 ---
 
