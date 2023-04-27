@@ -6,6 +6,7 @@
   "author": "kwak9898 <ktm9837@naver.com>",
   "license": "MIT",
   "scripts": {
+    "build": "yarn tsc --build",
     "start": "nodemon --exec ts-node --files src/index.ts"
   },
   "dependencies": {
